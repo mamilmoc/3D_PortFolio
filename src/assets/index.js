@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import livedemo from "./livedemo.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -19,7 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import carrent from "./carrent.png";
+import messengerclone from "./messengerclone.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -30,6 +31,7 @@ export {
   mobile,
   web,
   github,
+  livedemo,
   menu,
   close,
   css,
@@ -43,7 +45,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
+  messengerclone,
   jobit,
   tripguide,
 };
