@@ -19,10 +19,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
 
 import messengerclone from "./messengerclone.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import webdiary from "./webdiary.png";
+import gerichtrestaurant from "./gerichtrestaurant.png";
+import youtubeclone from "./youtubeclone.png";
+import dashboard from "./dashboard.png";
+import spotifyclone from "./spotifyclone.png";
 
 export {
   logo,
@@ -46,6 +50,10 @@ export {
   typescript,
   threejs,
   messengerclone,
-  jobit,
-  tripguide,
+  webdiary,
+  gerichtrestaurant,
+  youtubeclone,
+  dashboard,
+  spotifyclone,
+  nextjs
 };

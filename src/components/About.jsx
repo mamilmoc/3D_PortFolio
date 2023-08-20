@@ -1,5 +1,6 @@
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
+
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -34,7 +35,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a software developer with experience in TypeScript and JavaScript, and skilled in frameworks like React, Node.js, and Three.js. I possess a strong ability to quickly grasp new concepts and am committed to working closely with clients to develop effective, scalable, and user-friendly solutions that effectively address real-world issues.
+        I am a software developer with experience in TypeScript and JavaScript, and skilled in frameworks like React, NodeJS, and NextJS. I possess a strong ability to quickly grasp new concepts and am committed to working closely with clients to develop effective, scalable, and user-friendly solutions that effectively address real-world issues.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

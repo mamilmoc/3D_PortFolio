@@ -14,9 +14,13 @@ import {
   mongodb,
   git,
   messengerclone,
-  jobit,
-  tripguide,
+  webdiary,
+  gerichtrestaurant,
+  youtubeclone,
+  dashboard,
+  spotifyclone,
   threejs,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -40,11 +44,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
+    title: "Backend Developer",
     icon: backend,
   },
   {
@@ -95,6 +99,10 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Git",
     icon: git,
   },
@@ -102,9 +110,97 @@ const technologies = [
 
 const projects = [
   {
+    name: "Gericht Restaurant",
+    description:
+      "A fully responsive restaurant website crafted using Figma, thoughtfully presenting an array of essential features requisite for a professional business webpage.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gerichtrestaurant,
+    source_code_link1: "https://github.com/mamilmoc/Gericht_restaurant",
+    source_code_link2: "https://gericht-restaurant-gamma.vercel.app/",
+  },
+  {
+    name: "Web Diary",
+    description:
+      "A comprehensive MERN project encompassing streamlined authentication functionality, empowering users to create, modify, and manage their individual diaries.",
+    tags: [
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs + nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webdiary,
+    source_code_link1: "https://github.com/mamilmoc/Diary",
+    source_code_link2: "https://diary-s1lv.onrender.com",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "An adept e-commerce admin dashboard for streamlined business management, enriched with supplementary features for enhanced operational control.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "syncfusion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link1: "https://github.com/mamilmoc/Dashboard",
+    source_code_link2: "https://dashboard-six-lilac.vercel.app/",
+  },
+  {
+    name: "Youtube Clone",
+    description:
+      "A user-friendly YouTube emulation enabling effortless video search and playback, leveraging RapidAPI integration for content sourcing.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rapidapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtubeclone,
+    source_code_link1: "https://github.com/mamilmoc/youtube_clone",
+    source_code_link2: "https://youtube-clone-sandy-nine.vercel.app/",
+  },
+  {
     name: "Messenger Clone",
     description:
-      "A fully operational real-time messaging replica that enables users to register, log in, and engage in conversations with their preferred contacts and also in groups.",
+      "A fully operational real-time messaging replica with authentication that enables users to engage in conversations with their preferred contacts.",
     tags: [
       {
         name: "nextjs",
@@ -124,30 +220,9 @@ const projects = [
     source_code_link2: "https://messenger-clone-gilt-mu.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Spotify Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Spotify clone which allows the users to upload and listen to their favorite music. Stripe has been implemented to imitate the subscription.",
     tags: [
       {
         name: "nextjs",
@@ -158,12 +233,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "stripe",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: spotifyclone,
+    source_code_link1: "https://github.com/mamilmoc/spotify-clone",
+    source_code_link2: "https://spotify-clone-theta-lovat.vercel.app/",
   },
 ];
 
